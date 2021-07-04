@@ -1,0 +1,99 @@
+/* Banners 125x125 */
+#banners125 {
+margin: 10px 0;
+width:100%;
+}
+#banners125 ul {
+padding:0;
+margin:0;
+list-style-type:none;
+}
+#banners125 ul li {
+float: left;
+margin:10px 0 0 10px;
+display: inline;
+}
+#banners125 img {
+display: block;
+}
+
+
+nav{
+	background: #1DEAEA;
+	overflow: hidden; /* Propiedad que obliga a los elementos float contenidos a ser incluidos en el contenedor */
+}
+
+header nav ul{
+	display: inline-block;
+        list-style-type: none;
+} 
+
+header nav ul li{
+	float: left;
+}
+
+header h1{
+	color: #0FD3EE;
+}
+
+
+header nav ul li a{
+	padding: 5px 20px 10px;
+	display:block;
+	color:#B00A08;
+	text-decoration: none;
+        
+}
+
+body{
+	background:#0B8A8A;
+        color: #B00A08;
+}
+
+article{
+	background:#B00A08;
+	width:60%;
+	height:350px;
+	border: 10px solid #000000;
+	padding: 5px;
+	margin: 20px;
+	float:left;
+        color:#1DEAEA;
+}
+
+h1{
+	text-align: center;
+	text-emphasis-color:#1DEAEA;
+	font-family:cursive;
+	font-size:1.5em;
+}
+
+aside {
+	width: 30%;
+	height: 600px;
+   	background:#04DCCF;
+	color:#C50808;
+	border: 10px solid #054952;
+	padding: 10px;
+	position: static;
+	overflow: hidden;
+	margin:50px;
+}
+
+aside h3{
+	text-align: center;
+}
+
+footer {
+  clear: left;
+  height: 300px;
+  color:#1DEAEA;
+  text-align: center;
+  line-height: 3;
+  background:#054952;
+}
+
+
+FONT {
+text-shadow: 5px 5px 5px #E21111 ;
+}
