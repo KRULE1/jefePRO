@@ -1,0 +1,35 @@
+body {
+background-image: "neon3.gif";
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #8EB8F1;
+}
+
+nav{
+	background: #1DEAEA;
+	overflow: hidden; /* Propiedad que obliga a los elementos float contenidos a ser incluidos en el contenedor */
+}
+
+header nav ul{
+	display: inline-block;
+        list-style-type: none;
+} 
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	padding: 5px 20px 10px;
+	display:block;
+	color:#B00A08;
+	text-decoration: none;
+        
+}
+
+
+a:hover {
+filter: invert(100%);
+}

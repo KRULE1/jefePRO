@@ -70,7 +70,7 @@ h1{
 
 aside {
 	width: 30%;
-	height: 600px;
+	height: 1200px;
    	background:#04DCCF;
 	color:#C50808;
 	border: 10px solid #054952;
@@ -97,3 +97,9 @@ footer {
 FONT {
 text-shadow: 5px 5px 5px #E21111 ;
 }
+
+
+a:hover {
+filter: invert(100%);
+}
+
